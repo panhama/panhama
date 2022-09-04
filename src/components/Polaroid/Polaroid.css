@@ -1,0 +1,25 @@
+
+.PolaroidFrame { 
+  
+    position: relative;
+    background-color: white;
+    height: 26rem;
+    width: 20rem !important;
+    border-style:solid;
+    border-width: 2px;
+    border-color: bisque;
+    
+  }
+  .PolaroidFrame img{
+    padding: 1.75rem 1.75rem 1.5rem 1rem;
+    width:300px;
+  }
+  .PolaroidFrame:hover{
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
+  .PolaroidFrame h3 {
+    text-align: center;
+    letter-spacing: 1rem;
+    color: rgb(83, 83, 83);
+  }
