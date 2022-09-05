@@ -5,12 +5,10 @@ import logo from "../../assets/img/logo-small.png";
 import twitter from "..//../assets/img/twitter.svg";
 import instagram from "..//../assets/img/instagram.svg";
 import linkedin from "..//../assets/img/linkedin.svg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' ;// <-- import styles to be used
-
-// import {faYoutube} from '@fortawesome/free-brands-svg-icons'; 
 import "./Navbar.css";
 
+import "./Navbar.css";
+// document.getElementsByClassName("logo").addEventListener("mouseover",(event)=>{console.log("hello world");})
 
 
 export const Navigation = ()=>{
@@ -38,7 +36,9 @@ export const Navigation = ()=>{
   return (<Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" width="120rem"/>
+            <img src={logo} alt="Logo" className="logo" />
+            
+            {/* <img src={logo2} alt="Logo" className="logo" /> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -62,16 +62,5 @@ export const Navigation = ()=>{
         </Container>
       </Navbar>
       )};
-{/* //  return <div>
-//  <Navbar bg="light" variant="light">
-//    <Container>
-//      <Navbar.Brand href="#home"> <img src={logo} width="120rem" alt=""/> </Navbar.Brand>
-//      <Nav className="me-auto">
-//        <Nav.Link href="#home">Home</Nav.Link>
-//        <Nav.Link href="#features">Features</Nav.Link>
-//        <Nav.Link href="#pricing">Pricing</Nav.Link>
-//      </Nav>
-//    </Container>
-//  </Navbar>
-// </div> */}
+
 

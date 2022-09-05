@@ -1,13 +1,18 @@
-
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
 .banner {
   margin: 0 0 0 0;
-  background-image: url('./assets/img/background.jpg');
+  background: url('./assets/img/background.jpg')repeat fixed;
   height: 100vh;
+  width: 100%;
   display: inline-flex;
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   }
+
 .banner-crop{
   background-image: url('./assets/img/crop.png');
   height: 100vh;

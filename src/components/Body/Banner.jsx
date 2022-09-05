@@ -3,7 +3,7 @@ import "./Banner.css";
 import { Container, Row, Col } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import CardStack from "./CardStack";
+// import CardStack from "../Buttons/CardStack";
 // import Button from "../../components/Buttons/Button";
 export const Banner = () => {
 
@@ -54,8 +54,8 @@ return <div>
     <h1 className="nameTitle">
     PANHA MA
         </h1>
-    <h1 className="title">
-        FULLSTACK DEVELOPER
+    <h1>
+        <span className="title">FULLSTACK</span> <span className="title-no">DEVELOPER</span> 
         </h1>
   {/* <Button text="Learn More"/>  */}
     </div>
