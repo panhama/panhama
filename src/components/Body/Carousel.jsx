@@ -21,7 +21,7 @@ const CarouselComponents = ({img,title,text})=>{
 //   <p>{text}</p>
 // </Carousel.Caption>
 // </Carousel.Item>
-// }
+}
 
 
 function Carousels() {

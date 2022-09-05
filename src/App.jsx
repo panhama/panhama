@@ -8,6 +8,7 @@ import PolaroidBase from "./components/Polaroid/PolaroidBase";
 import Photography from "./components/Body/Photography";
 
 import Portfolio from "./components/Body/Portfolio";
+import Footer from './components/Footer/Footer';
 // import CardStack from "./components/Buttons/CardStack";
 // import Button from "././components/Buttons/Button";
 // import IFrameParents from "./components/Body/IframeParents";
@@ -19,7 +20,7 @@ function App() {
     <Router>
         <Routes>
     <Route 
-    exact path="/" element={<div>   <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/>  </div>}/>
+    exact path="/" element={<div>   <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <Footer/>  </div>}/>
   
     <Route exact path="/photography" element={<div><Photography/><Carousels/></div> }/>
 

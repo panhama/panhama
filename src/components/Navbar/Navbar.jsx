@@ -47,17 +47,17 @@ export const Navigation = ()=>{
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Skills</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Projects</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Photography</Nav.Link>
+              <Nav.Link href="/photography" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Photography</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={twitter} alt=""/></a>
-                <a href="#"><img src={linkedin} alt=""/></a>
-                <a href="#"><img src={instagram} alt=""/></a>
+                <a href="https://twitter.com/panha_ma"><img src={twitter} alt=""/></a>
+                <a href="https://www.linkedin.com/in/ma-panha-526417237/"><img src={linkedin} alt=""/></a>
+                <a href="https://www.instagram.com/rezoluti0n/"><img src={instagram} alt=""/></a>
               </div>
               {/* <button className="vvd"><span>Let’s Connect</span></button> */}
             </span>
-            <ButtonGlow text={"CONTACT ME"}></ButtonGlow>
+              <a href="/photography"> <ButtonGlow text={"CONTACT ME"}></ButtonGlow> </a>
           </Navbar.Collapse>
         </Container>
       </Navbar>
