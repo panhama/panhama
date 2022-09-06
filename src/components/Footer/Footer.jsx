@@ -5,7 +5,7 @@ import logo from "../../assets/img/logo-small.png";
 import twitter from "..//../assets/img/twitter.svg";
 import instagram from "..//../assets/img/instagram.svg";
 import linkedin from "..//../assets/img/linkedin.svg";
-
+import Button from ".././Buttons/Button";
 export default function Footer () {
   return (
     <footer className="footer">
@@ -21,7 +21,7 @@ export default function Footer () {
               <a href="https://www.instagram.com/rezoluti0n/"><img src={instagram} alt="Icon" /></a>
               <a href="https://www.linkedin.com/in/ma-panha-526417237/"><img src={linkedin} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <a> <Button text="CONTACT ME" /> </a> 
           </Col>
         </Row>
       </Container>

@@ -13,15 +13,17 @@ import { Container } from "react-bootstrap";
 export default function Skills(params) {
     return <div className="skills">
     <Container>
+    {/* style={{position:"absolute",bottom:"-14rem"}} */}
     <Row>
+    <h3 > COFFEESHOP UX UI DESIGN PROTOTYPE</h3>
     <Col md={2}>
-    <img src={UX2} style={{width:"75%"}} alt=""></img>
+    <img src={UX2} style={{width:"75%",marginTop:"10rem"}} alt=""></img>
     </Col>
     <Col md={2}>
-    <img src={UX3} style={{width:"78%"}} alt=""></img>
+    <img src={UX3} style={{width:"78%",marginTop:"10rem"}}  alt=""></img>
     </Col>
     <Col md={2}>
-    <img src={UX4} style={{width:"76%"}} alt=""></img>
+    <img src={UX4} style={{width:"76%",marginTop:"10rem"}} alt=""></img>
     </Col>
     <Col md={3}>
     <img src={UX5} style={{width:"75%"}} alt=""></img>

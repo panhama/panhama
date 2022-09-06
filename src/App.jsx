@@ -6,9 +6,9 @@ import Carousels from "./components/Body/Carousel";
 import Skills from "./components/Body/Skills";
 import PolaroidBase from "./components/Polaroid/PolaroidBase";
 import Photography from "./components/Body/Photography";
-
-import Portfolio from "./components/Body/Portfolio";
 import Footer from './components/Footer/Footer';
+import Portfolio from "./components/Body/Portfolio";
+
 // import CardStack from "./components/Buttons/CardStack";
 // import Button from "././components/Buttons/Button";
 // import IFrameParents from "./components/Body/IframeParents";
@@ -22,7 +22,7 @@ function App() {
     <Route 
     exact path="/" element={<div>   <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <Footer/>  </div>}/>
   
-    <Route exact path="/photography" element={<div><Photography/><Carousels/></div> }/>
+    <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 
     <Route exact path="/portfolio" element={<Portfolio/>}/>
    
