@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/panhama/static/css/main.68d1f74e.css",
+    "main.js": "/panhama/static/js/main.c25ffb96.js",
+    "static/media/crop.png": "/panhama/static/media/crop.97673d0dcbf40b261180.png",
+    "static/media/C3.jpg": "/panhama/static/media/C3.77d16e0515ba6ec153f2.jpg",
+    "static/media/C8.jpg": "/panhama/static/media/C8.77cb4f80d212340c0efe.jpg",
+    "static/media/C1.jpg": "/panhama/static/media/C1.26bcc482c4e3a680f32e.jpg",
+    "static/media/C5.jpg": "/panhama/static/media/C5.5c7b3f913ba3ac106474.jpg",
+    "static/media/background.jpg": "/panhama/static/media/background.d31285d794922085498e.jpg",
+    "static/media/UX2.png": "/panhama/static/media/UX2.177a97c7fea41e04e90d.png",
+    "static/media/HIGH FI.png": "/panhama/static/media/HIGH FI.4a87e2cf7316c1f5dc80.png",
+    "static/media/C2.jpg": "/panhama/static/media/C2.19fac69207e4c63ade65.jpg",
+    "static/media/C4.jpg": "/panhama/static/media/C4.4b73847406a3d9338f43.jpg",
+    "static/media/8.jpg": "/panhama/static/media/8.8e6683a777aeecabaffc.jpg",
+    "static/media/UX5.png": "/panhama/static/media/UX5.ef02aa8090003d4a0832.png",
+    "static/media/5.jpg": "/panhama/static/media/5.8b95020b53cfa68dc178.jpg",
+    "static/media/UX4.png": "/panhama/static/media/UX4.fb31b15b50fa7d7aae07.png",
+    "static/media/UX6.png": "/panhama/static/media/UX6.032bccf26762fca8ffc4.png",
+    "static/media/2.jpg": "/panhama/static/media/2.c6797e2016718b1c5c9a.jpg",
+    "static/media/UX3.png": "/panhama/static/media/UX3.b1b554ffa7ff4e3e5990.png",
+    "static/media/1.jpg": "/panhama/static/media/1.41aa8b5db934e25d405e.jpg",
+    "static/media/3.jpg": "/panhama/static/media/3.f8b989f9afb8c11dc7c1.jpg",
+    "static/media/4.jpg": "/panhama/static/media/4.8f5d15518c0f24743ce8.jpg",
+    "static/media/logo-small.png": "/panhama/static/media/logo-small.d2f3f142330eae190f9e.png",
+    "static/media/instagram.svg": "/panhama/static/media/instagram.6d5171d58481634549447b4387ccfe0c.svg",
+    "static/media/twitter.svg": "/panhama/static/media/twitter.2ee4044b34e347393a7c55e49a299d8a.svg",
+    "static/media/linkedin.svg": "/panhama/static/media/linkedin.8259b0d9422b332cc396206603fef145.svg",
+    "index.html": "/panhama/index.html",
+    "main.68d1f74e.css.map": "/panhama/static/css/main.68d1f74e.css.map",
+    "main.c25ffb96.js.map": "/panhama/static/js/main.c25ffb96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68d1f74e.css",
+    "static/js/main.c25ffb96.js"
+  ]
+}
